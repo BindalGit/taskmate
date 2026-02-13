@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   const [taskList, setTaskList] = useState(JSON.parse(localStorage.getItem("tasklist")) || [])
-  const [theme,setTheme]=useState(JSON.parse(localStorage.getItem("theme")) || "light");
+  const [theme,setTheme]=useState(JSON.parse(localStorage.getItem("theme")) || "gTwo");
   const [currentTask, setCurrentTask] = useState({})
   
     const handleSubmit=(e)=>{
